@@ -1,3 +1,5 @@
+@import "../../styles/color.module.scss";
+
 .navbar-brand{
   padding: 4px 0 6px; 
   margin: 0;
@@ -19,10 +21,10 @@
         padding-bottom: 15px;
         padding-left: 16px !important;
         padding-right: 16px !important;
-        color: #fff;
+        color: $white-100;
         &.active{
           background: #11242f;
-          color: #fff;
+          color: $white-100;
         }
         &.dropdown-toggle::after{
           content: "";
@@ -46,7 +48,7 @@
           a{
             padding-top: 6px; 
             padding-bottom: 6px;
-            color: #fff;
+            color: $white-100;
             font-size: 14px;
             &.dropdown-item{
               &:hover{
@@ -124,16 +126,16 @@ nav{
   display: none;
 }
 a.btnRcnt{
-    background: #1195ff;
-    color: #fff;
+    background: $primary-light;
+    color: $white-100;
     padding: 4px 15px;
     font-size: 14px;
     border-radius: 2px;
     text-decoration: none;
-    border: 1px solid #1195ff;
+    border: 1px solid $primary-light;
     &:hover{
       background: transparent;
-      color:#fff;
+      color:$white-100;
     }
 }
 @media screen and (max-width: 767px){
@@ -186,7 +188,7 @@ a.btnRcnt{
   padding-top: 4px;
   padding-bottom: 4px;
 }
-.menuNavTop{background-color: #21536f;}
+.menuNavTop{background-color: $primary-color;}
 .navLogo img{filter: brightness(0) invert(1)}
 .menu-container .dropdown-menu.show{
   padding: 15px !important;
@@ -203,13 +205,13 @@ a.btnRcnt{
   width: 245px;
   text-align: center;
 }
-.menu-container .dropdown-menu.show p{margin-bottom: 0; margin-top: 6px; font-size: 13px; color: #fff; letter-spacing: 0;}
-.menu-container .dropdown-menu.show button{border-radius: 30px; background-color: #000; border-color: #B5B42F;}
-.menu-container .dropdown-menu.show p a{text-decoration: underline; color: #fff; font-weight: 500;}
-.menu-container .dropdown button{text-decoration: none; color: #fff; font-size: 16px;}
+.menu-container .dropdown-menu.show p{margin-bottom: 0; margin-top: 6px; font-size: 13px; color: $white-100; letter-spacing: 0;}
+.menu-container .dropdown-menu.show button{border-radius: 30px; background-color: $black-100;; border-color: #B5B42F;}
+.menu-container .dropdown-menu.show p a{text-decoration: underline; color: $white-100; font-weight: 500;}
+.menu-container .dropdown button{text-decoration: none; color: $white-100; font-size: 16px;}
 .menu-container .dropdown:last-child button{padding-right: 0;}
 .menu-trigger {
-  background: #ffffff;
+  background: $white-100;
   border-radius: 90px;
   cursor: pointer;
   display: flex;
@@ -239,7 +241,7 @@ a.btnRcnt{
 }
 
 .menu {
-  background: #ffffff;
+  background: $white-100;
   border-radius: 8px;
   position: absolute;
   top: 60px;
@@ -270,7 +272,7 @@ a.btnRcnt{
 
 .menu li a {
   text-decoration: none;
-  color: #333333;
+  color: $black-300;
   padding: 15px 20px;
   display: block;
 }

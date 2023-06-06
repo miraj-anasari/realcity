@@ -1,5 +1,7 @@
+@import "../../styles/color.module.scss";
+
 .menuNavTop{
-    background: #0e2531;
+    background: $black-dark;
     float: left;
     width: 100%;
 }
@@ -8,7 +10,7 @@
         padding-top: 35px;
         padding-bottom: 35px;
         align-items: center;    
-        h3, p{color: #fff; text-align: left;}
+        h3, p{color: $white-100; text-align: left;}
     }
 }
 .newsSubscribe_form{
@@ -16,7 +18,7 @@
     input {
         height: 55px;
         border-radius: 40px;
-        background-color: #fff;
+        background-color: $white-100;
         padding: 0 15px;
         border: 0px solid;
         width: 100%;
@@ -28,8 +30,8 @@
         top: 1px;
         border-radius: 40px;
         width: 120px;
-        background: #555f56;
-        color: #fff;
+        background: $primary-color;
+        color: $white-100;
         font-size: 18px;
         border: 0px solid;
     }
@@ -40,7 +42,7 @@
 .contactINfo{
     span{
         float: left;
-        background: #0f2431;
+        background: $black-dark;
         padding: 5px;
         margin-right: 5px;
         border: 0px solid;
@@ -52,7 +54,7 @@
         }
     }
     .input-group{
-        background: #accde1;
+        background: $primary-light;
         margin-bottom: 6px;
         border-radius: 2px;
         width: auto;
@@ -61,9 +63,9 @@
         p{
             margin: 0;
             padding-left: 10px;
-            color: #000;
+            color: $black-100;;
             a{
-                color: #000;
+                color: $black-100;;
                 text-decoration: none; 
             }
         }
@@ -72,7 +74,7 @@
 .FooterBootm {
     float: left;
     width: 100%;
-    background: #21536f;
+    background: $primary-color;
     padding: 40px 0;
     text-align: left;
     ul{
@@ -80,12 +82,12 @@
         padding: 0;
     }
     h5 {
-        color: #fff;
+        color: $white-100;
         margin-bottom: 30px;
         font-size: 1.25rem;
     }
     p{
-    color: #fff;
+    color: $white-100;
     }
 }
 .footerUseLink .footerFsc-widgt {
@@ -103,7 +105,7 @@
     p {
         width: calc(100% - 80px);
         padding-left: 10px;
-        color: #fff;
+        color: $white-100;
         margin-bottom: 0;
     }
     img {
@@ -116,12 +118,13 @@
 .quicklink {
     padding-right: 50px !important;
     li {
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid;
+        border-color: $white-100;
         float: left;
         width: 100%;
         list-style-type: none;
         a {
-            color: #fff;
+            color: $white-100;
             font-weight: 300;
             padding: 7px 0;
             float: left;
@@ -131,13 +134,13 @@
     }
 }
 .copyright {
-    background-color: #000;
+    background-color: $black-100;;
     padding: 8px 20px 8px;
     float: left;
     width: 100%;
     text-align: left;
     p {
-        color: #fff;
+        color: $white-100;
         font-size: 12px;
         margin: 0;
     }

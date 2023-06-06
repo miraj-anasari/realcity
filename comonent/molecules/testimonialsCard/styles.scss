@@ -1,9 +1,11 @@
+@import "../../../styles/color.module.scss";
+
 .testimonials{
     width: 100%;
     float: left;
     padding: 20px 20px 30px;
     border-radius: 8px;
-    background: #fff;
+    background: $white-100;
     text-align: center;
     border: 1px solid #e3e3e3;
     cursor: pointer;

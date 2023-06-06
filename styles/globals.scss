@@ -2,12 +2,12 @@
 
 body{margin: 0;}
 ::selection {
-  color: #fff;
-  background-color: #3974c6;
+  color: $white-100;
+  background-color: $primary-color;
 }
 ::-moz-selection {
-  color: #fff;
-  background-color: #3974c6;
+  color: $white-100;
+  background-color: $primary-color;
 }
 a,
 .transiction-effect {
@@ -20,14 +20,6 @@ a,
 }
 a:hover {
   text-decoration: none;
-}
-.topHeader {
-  background-color: #3974c6;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
 }
 ul,
 li {
@@ -46,15 +38,15 @@ li {
   margin-bottom: 0;
 }
 .topHeader .folowUs ul li a {
-  color: #fff !important;
+  color: $white-100 !important;
   font-size: 13px;
   line-height: 12px;
   font-weight: bold;
   margin: 4px 0;
 }
-.topHeader .folowUs ul li a:active, .topHeader .folowUs ul li a:focus{color: #fff !important;}
+.topHeader .folowUs ul li a:active, .topHeader .folowUs ul li a:focus{color: $white-100 !important;}
 .topHeader .folowUs ul li a:hover {
-  color: #000 !important;
+  color: $black-100 !important;
 }
 .topHeader .dropShipMenu {
   float: right;

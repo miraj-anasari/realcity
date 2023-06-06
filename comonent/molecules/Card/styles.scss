@@ -1,6 +1,8 @@
+@import "../../../styles/color.module.scss";
+
 .blogSnip {
     box-shadow: 0 0 5px rgba(000,000,000,0.15);
-    color: #ffffff;
+    color: $white-100;
     float: left;
     font-family: "Lato", Arial, sans-serif;
     font-size: 16px;
@@ -26,7 +28,7 @@
         .fp_price {
             position: absolute;
             top: -15px;
-            background: #4aab86;
+            background: $grey-green;
             padding: 3px 10px;
             font-size: 12px;
             border-radius: 20px;
@@ -34,10 +36,10 @@
         .fp-title{
             h4 {
                 font-size: 20px;
-                color: #000;
+                color: $black-100;;
                 margin: 5px 0 10px;
                 a {
-                    color: #4aab86;
+                    color: $grey-green;
                     text-decoration: none;
                 }
             }
@@ -81,7 +83,7 @@
             width: calc(100% - 25px);
             float: left;
             font-size: 12px;
-            color: #333;
+            color: $black-300;
             padding-left: 8px;
         }
         &.area_First {
