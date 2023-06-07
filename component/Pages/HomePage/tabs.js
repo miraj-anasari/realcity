@@ -16,10 +16,10 @@ function HomeTabs() {
         <div className="tab-content p-3 border bg-light" id="nav-tabContent">
           <div className="tab-pane fade active show" id="nav-rent" role="tabpanel" aria-labelledby="nav-rent-tab">
             <div className="container text-center">
-              <div class="row justify-content-start">
-                <div class="col-md-10 col-12 selectOption_search">
-                  <div class="col-4 form-floating">
-                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+              <div className="row justify-content-start">
+                <div className="col-md-10 col-12 selectOption_search">
+                  <div className="col-4 form-floating">
+                    <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                       <option selected>Choose Type</option>
                       <option value="1">One</option>
                       <option value="2">Two</option>
@@ -27,8 +27,8 @@ function HomeTabs() {
                     </select>
                     <label for="floatingSelect">Select Type</label>
                   </div>
-                  <div class="col-4 form-floating">
-                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <div className="col-4 form-floating">
+                    <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                       <option selected>Choose Province</option>
                       <option value="1">One</option>
                       <option value="2">Two</option>
@@ -36,8 +36,8 @@ function HomeTabs() {
                     </select>
                     <label for="floatingSelect">Select Province</label>
                   </div>
-                  <div class="col-4 form-floating">
-                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <div className="col-4 form-floating">
+                    <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                       <option selected>Choose City/Muncipality</option>
                       <option value="1">One</option>
                       <option value="2">Two</option>
@@ -46,8 +46,8 @@ function HomeTabs() {
                     <label for="floatingSelect">Select City/Muncipality</label>
                   </div>
                 </div>
-                <div class="searchButton col-md-2 col-12">
-                  <button type='button' class="btn btn-primary">Search</button>
+                <div className="searchButton col-md-2 col-12">
+                  <button type='button' className="btn btn-primary">Search</button>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ function HomeTabs() {
                   </div>
                 </div>
                 <div className="searchButton col-md-2 col-12">
-                  <button type='button' class="btn btn-primary">Search</button>
+                  <button type='button' className="btn btn-primary">Search</button>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@ function HomeTabs() {
                   </div>
                 </div>
                 <div className="searchButton col-md-2 col-12">
-                  <button type='button' class="btn btn-primary">Search</button>
+                  <button type='button' className="btn btn-primary">Search</button>
                 </div>
               </div>
             </div>

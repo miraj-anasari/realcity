@@ -38,7 +38,7 @@ function BenifitsCard() {
         return (
           <div className="col-md-3 col-sm-6 col-xs-12">
             <div className="cardBenifits">
-                <div class="image">
+                <div className="image">
                   <Image
                     src={image}
                     width='60px'
@@ -46,7 +46,7 @@ function BenifitsCard() {
                     alt="icon"
                     unoptimized
                   />
-                  <div class="cardBenifitsCaption">
+                  <div className="cardBenifitsCaption">
                       <h4>{data.title}</h4>
                       <p>{data.description}</p>
                       <a href="#">Learn More</a>

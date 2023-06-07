@@ -1,5 +1,5 @@
 import React from "react"
-import Home from "@/comonent/Pages/HomePage/home"
+import Home from "@/component/Pages/HomePage/home"
 
 export default function dashbord() {
   return (

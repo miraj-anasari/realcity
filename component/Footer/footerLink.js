@@ -72,8 +72,8 @@ function FooterLink() {
                 <div className="col-md-3 footerFsc-widgt fooerIframeinfo">
                     <h5>Contact Info</h5>
                     <div className="contactINfo">
-                        <div class="input-group mb-3 col-6">
-                            <span class="input-group-text">
+                        <div className="input-group mb-3 col-6">
+                            <span className="input-group-text">
                             <Image
                                 src={pinIcon}
                                 width={18}
@@ -83,8 +83,8 @@ function FooterLink() {
                             </span>
                             <p>376 Camac Street, Philipines</p>
                         </div>
-                        <div class="input-group mb-3 col-6">
-                            <span class="input-group-text">
+                        <div className="input-group mb-3 col-6">
+                            <span className="input-group-text">
                             <Image
                                 src={emailIcon}
                                 width={18}
@@ -94,8 +94,8 @@ function FooterLink() {
                             </span>
                             <p><a href="mailto:info.mai@gmail.com"></a>info.mai@gmail.com</p>
                         </div>
-                        <div class="input-group mb-3 col-6">
-                            <span class="input-group-text">
+                        <div className="input-group mb-3 col-6">
+                            <span className="input-group-text">
                             <Image
                                 src={phoneIcon}
                                 width={18}
