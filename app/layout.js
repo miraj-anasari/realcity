@@ -2,8 +2,8 @@
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
 import '../styles/globals.scss'
-import Header from '@/comonent/Header'
-import Footer from '@/comonent/Footer'
+import Header from '@/component/Header'
+import Footer from '@/component/Footer'
 
 
 

@@ -33,13 +33,13 @@ function TestimonialsCard() {
                   alt="quote-icon"
                 />
               </div>
-                <div class="image">
+                <div className="image">
                   <img
                     className=""
                     src={image}
                     alt="user-image"
                   />
-                  <div class="testimonialsCaption">
+                  <div className="testimonialsCaption">
                       <p>{data.description}</p>
                     </div>
                 </div>

@@ -35,7 +35,7 @@ function InqueryCard() {
                                 <div className='col-md-6 col-sm-12'>
                                     <div className='fieldType'>
                                         <label>Inquiry Type</label>
-                                        <div class="select-dropdown">
+                                        <div className="select-dropdown">
                                             <select>
                                                 <option>Rent</option>
                                                 <option>Sell</option>
@@ -48,7 +48,7 @@ function InqueryCard() {
                                 <div className='col-md-6 col-sm-12'>
                                     <div className='fieldType'>
                                         <label>Province</label>
-                                        <div class="select-dropdown">
+                                        <div className="select-dropdown">
                                             <select>
                                                 <option>Metro Manila</option>
                                                 <option>Makati</option>
@@ -61,7 +61,7 @@ function InqueryCard() {
                                 <div className='col-md-6 col-sm-12'>
                                     <div className='fieldType'>
                                         <label>City</label>
-                                        <div class="select-dropdown">
+                                        <div className="select-dropdown">
                                             <select>
                                                 <option>Pasacian City</option>
                                                 <option>ReEest</option>
@@ -72,7 +72,7 @@ function InqueryCard() {
                                 <div className='col-md-6 col-sm-12'>
                                     <div className='fieldType'>
                                         <label>Barangay</label>
-                                        <div class="select-dropdown">
+                                        <div className="select-dropdown">
                                             <select>
                                                 <option>Barangay 2</option>
                                                 <option>Pasacay</option>
@@ -97,7 +97,7 @@ function InqueryCard() {
                                 <label>Message</label>
                                 <textarea placeholder='Type Mobile Message'></textarea>
                             </div>
-                            <div class="form-group mt-2">
+                            <div className="form-group mt-2">
                                 <input type="checkbox" id="tncCheck" />
                                 <label for="tncCheck"></label>
                                 <span>I agree to the <a href='#'>Terms of condition</a></span>
